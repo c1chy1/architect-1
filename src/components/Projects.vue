@@ -1,6 +1,6 @@
 <template>
 
-  <div class="w-full flex flex-col rotate-0 -translate-x-0 lg:-translate-x-full lg:-rotate-90 lg: lg:grid lg:grid-rows-1  p-2 bg-primary horizontal-scroll-wrapper squares lg:absolute top-15 left-5">
+  <div class="w-full flex flex-col rotate-0 -translate-x-0 lg:-translate-x-full lg:-rotate-90 lg: lg:grid lg:grid-rows-1  p-2 bg-primary horizontal-scroll-wrapper squares lg:absolute top-15 left-5 ">
     <div class="box my-8 relative w-full h-80 bg-cover bg-repeat-round bg-origin-border overflow-hidden rounded-lg text-primary"
          v-for="project in projects"
          :key="project.name"
