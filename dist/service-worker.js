@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/architect-1/precache-manifest.808aaca6d0a845768e58c3d2b8baf7c3.js"
+  "/REPO_NAME/precache-manifest.1af6fea30442e83f232660240f14c7b7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "acme-studios"});

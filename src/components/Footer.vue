@@ -14,7 +14,7 @@
           <component :is="item.icon" class="h-4 w-4 lg:h-6 lg:w-6" aria-hidden="true" />
         </a>
       </div>
-      <p class="mt-8 text-center text-sm lg:text-base text-gray-400">&copy; 2022 Acourse.de, Inc. All rights reserved.</p>
+      <p class="mt-8 text-center text-sm lg:text-base text-gray-400">&copy; 2022 c1chy.eu, Inc. All rights reserved.</p>
     </div>
   </footer>
 </template>
