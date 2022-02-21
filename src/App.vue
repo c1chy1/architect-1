@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-2xl mx-auto overflow-x-hidden">
+  <div class="max-w-screen-2xl mx-auto">
     <Navigation/>
     <router-view
         v-slot="{ Component }">
