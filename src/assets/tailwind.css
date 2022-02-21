@@ -1,0 +1,122 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+
+        background-color: #F0ECE3;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    @font-face {
+        font-family: Grotesque;
+        font-weight: 300;
+        src: url(/fonts/BasisGrotesquePro-Light.ttf) format("ttf");
+    }
+
+
+.my_splide--arrow {
+
+    background: transparent;
+    height: 2rem;
+    width: 2rem;
+    transform: translateY(0%);
+
+}
+    .my_splide--arrow svg {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .my_splide--arrows {
+
+        display: flex;
+        position: absolute;
+        width: 10%;
+        top: 35%;
+    }
+
+
+    .button--next {
+        left:100%;
+    }
+
+    .button--left {
+
+        left :10%;
+    }
+
+
+
+    @media (min-width: 1024px) {
+        .my_splide--arrow {
+
+            background: transparent;
+            height: 3rem;
+            width: 3rem;
+            transform: translateY(0%);
+
+        }
+
+        .my_splide--arrow svg {
+            height: 3rem;
+            width: 3rem;
+        }
+
+
+        .my_splide--arrows {
+
+            width: 10%;
+            top: 50%;
+        }
+
+    }
+
+
+
+/*
+.button--next {
+
+
+    right: 78%;
+}
+
+
+
+
+
+    @media (min-width: 1280px) {
+        .button--next {
+
+            right: 90%;
+        }
+    }
+
+
+
+
+
+
+
+    }
+
+
+    @media (min-width: 768px) {
+        .button--next {
+
+            right: 60%;
+        }
+    }
+
+
+    @media (min-width: 640px) {
+        .button--next {
+
+            right: 40%;
+        }
+    }*/  }
+
